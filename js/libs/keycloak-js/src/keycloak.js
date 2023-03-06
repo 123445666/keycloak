@@ -632,7 +632,7 @@ function Keycloak (config) {
                     var req = new XMLHttpRequest();
                     req.open('POST', url, true);
                     req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-                    req.withCredentials = true;
+                    // req.withCredentials = true;
 
                     params += '&client_id=' + encodeURIComponent(kc.clientId);
 
@@ -756,7 +756,7 @@ function Keycloak (config) {
                 params += '&code_verifier=' + oauth.pkceCodeVerifier;
             }
 
-            req.withCredentials = true;
+            // req.withCredentials = true;
 
             req.onreadystatechange = function() {
                 if (req.readyState == 4) {

@@ -1,7 +1,7 @@
 {
-  "name": "keycloak-js",
-  "version": "999.0.0-SNAPSHOT",
-  "description": "A client-side JavaScript OpenID Connect library that can be used to secure web applications",
+  "name": "keycloak-js-without-credentials",
+  "version": "21.0.1b",
+  "description": "still keycloak-js but removed credentials",
   "main": "./dist/keycloak.js",
   "module": "./dist/keycloak.mjs",
   "types": "./dist/keycloak.d.ts",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keycloak/keycloak"
+    "url": "https://github.com/123445666/keycloak"
   },
   "author": "Keycloak",
   "license": "Apache-2.0",
